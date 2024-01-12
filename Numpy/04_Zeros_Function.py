@@ -1,5 +1,5 @@
 # zeros() use to create array with zero filled..
-# its default datatype is zero
+# its default datatype is float
 
 import numpy as np 
 
