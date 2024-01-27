@@ -24,3 +24,24 @@ print(arr_new)
 
 
 
+# split into array with index
+import numpy as np
+arr1=np.array([1,2,3,4,5,6])
+arr_new=np.array_split(arr1, 3)
+print(arr_new[0])
+print(arr_new[1])
+print(arr_new[2])
+
+'''
+OUTPUT:
+[1 2]
+[3 4]
+[5 6]
+'''
+
+
+# splinting the 2-D array
+import numpy as np
+a1=np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+new_b20= np.array_split(a1, 3 , axis=1)
+print(new_b20)
