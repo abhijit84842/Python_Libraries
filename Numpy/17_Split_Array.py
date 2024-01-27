@@ -1,0 +1,26 @@
+# Spliting Array: -> it break the array
+#split()
+# array_split()
+
+
+#split()
+# split 1-D array in 3 part
+import numpy as np 
+arr1=np.array([1,2,3,4,5,6])
+splited_arr=np.split(arr1 , 3)
+print(splited_arr)      #OutPut; -> [array([1, 2]), array([3, 4]), array([5, 6])]
+
+
+
+
+# split 1-D array in 4 part
+# array_split()
+import numpy as np
+arr1=np.array([1,2,3,4,5,6])
+arr_new=np.array_split(arr1, 4)
+print(arr_new)
+
+# OUTPUT: -> [array([1, 2]), array([3, 4]), array([5]), array([6])]
+
+
+
